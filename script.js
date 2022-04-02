@@ -7,6 +7,7 @@ setInterval(() => {
     let date = new Date();
     let hour = date.getHours();
     let min = date.getMinutes();
+    min = min < 10 ? "0"+min : min;
     let timestat = hour <= 12 ? 'a.m.' : 'p.m.';
     $('#time').text(`${hour}:${min} ${timestat}`)
 }, 10)
