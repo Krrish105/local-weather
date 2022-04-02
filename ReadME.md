@@ -42,6 +42,7 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
+- JQuery
 - [HTML5 Geolocation API](https://www.w3schools.com/html/html5_geolocation.asp)
 - [FreeCodeCamp Weather API](https://weather-proxy.freecodecamp.rocks/)
 
