@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Local Weather</title>
+</head>
+<body>
+    <!-- Heading -->
+    <h1>
+        Local Weather
+    </h1>
+
+    <!-- Error Text -->
+    <div class="error-text"></div>
+
+    <!-- Main -->
+    <main>
+        <!-- Header Containing City and Country Name -->
+        <header>
+            <h2 id="place">
+                <span id="city">City, </span>
+                <span id="country">Country</span>
+            </h2>
+            <span id="time">00:00 a.m.</span>
+        </header>
+
+        <!-- Icon-Temp Containing weather icon and temp info -->
+        <div class="icon-temp">
+            <div id="weather-info">
+                <img src="https://miro.medium.com/max/1400/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg" alt="" id="weather-icon">
+                <span id="status">Clouds</span>
+            </div>
+            <div id="toggle">In F</div>
+            <div id="temp-info">
+                <div id="temp">0 C</div>
+                <div id="feels">0 C</div>
+            </div>
+        </div>
+
+        <!-- pres-hum Containing Pressure and Humidity -->
+        <div id="pres-hum">
+            <div id="pressure">0</div>
+            <div id="humidity">0</div>
+        </div>
+    </main>
+
+    <!-- Script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
